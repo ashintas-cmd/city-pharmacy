@@ -8,8 +8,8 @@ export const seedSettings: StoreSettings = {
   whatsapp: "919871040480",
   email: "care@citypharmacy.in",
   addressLine1: "Adarsh Nagar",
-  addressLine2: "Delhi",
-  city: "Delhi",
+  addressLine2: "",
+  city: "North West Delhi",
   state: "Delhi",
   pincode: "110033",
   hours: "Open 24 × 7",
@@ -17,7 +17,7 @@ export const seedSettings: StoreSettings = {
   deliveryFee: 49,
   freeDeliveryAbove: 499,
   deliveryEta: "90 minutes",
-  mapQuery: "Adarsh Nagar, Delhi 110033",
+  mapQuery: "Adarsh Nagar, North West Delhi, Delhi 110033",
   supportEmail: "care@citypharmacy.in",
 };
 

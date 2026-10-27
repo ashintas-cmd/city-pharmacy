@@ -5,7 +5,7 @@ An online pharmacy storefront and staff panel for **City Pharmacy**, a family-ru
 - **Live site:** https://city-pharmacy-ccfc3.web.app
 - **Owner:** Akshat Sabharwal
 - **Phone:** +91 98710 40480
-- **Address:** Adarsh Nagar, Delhi 110033
+- **Address:** Adarsh Nagar, North West Delhi, Delhi 110033
 - **Hours:** Open 24 × 7
 - **Firebase project:** `city-pharmacy-ccfc3`
 - **Firestore database:** `default` (Asia South / Mumbai)

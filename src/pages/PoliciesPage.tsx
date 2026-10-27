@@ -17,7 +17,7 @@ const content: Record<PolicyKind, { title: string; intro: string; sections: Sect
       {
         heading: "Who we are",
         body: [
-          "City Pharmacy is a licensed retail pharmacy located at Main Market, Adarsh Nagar, Delhi 110033, owned by Akshat Sabharwal. For privacy questions, write to care@citypharmacy.in or call +91 98710 40480.",
+          "City Pharmacy is a licensed retail pharmacy located at Adarsh Nagar, North West Delhi 110033, owned by Akshat Sabharwal. For privacy questions, write to care@citypharmacy.in or call +91 98710 40480.",
         ],
       },
       {
@@ -100,7 +100,7 @@ const content: Record<PolicyKind, { title: string; intro: string; sections: Sect
       {
         heading: "About City Pharmacy",
         body: [
-          "City Pharmacy is a licensed retail pharmacy in Adarsh Nagar, Delhi, owned by Akshat Sabharwal. The website is an online storefront for the same physical store. Medicines are dispensed under the supervision of a licensed pharmacist.",
+          "City Pharmacy is a licensed retail pharmacy in Adarsh Nagar, North West Delhi, owned by Akshat Sabharwal. The website is an online storefront for the same physical store. Medicines are dispensed under the supervision of a licensed pharmacist.",
         ],
       },
       {

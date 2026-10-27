@@ -39,7 +39,7 @@ const emptyAddress: Address = {
   line1: "",
   line2: "",
   landmark: "",
-  city: "Delhi",
+  city: "North West Delhi",
   state: "Delhi",
   pincode: "110033",
 };

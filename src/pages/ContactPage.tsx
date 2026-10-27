@@ -30,7 +30,7 @@ export function ContactPage() {
 
   usePageMeta(
     "Contact & store location | City Pharmacy, Adarsh Nagar",
-    "Visit City Pharmacy at Main Market, Adarsh Nagar, Delhi 110033. Call +91 98710 40480 or send us a message. Open 24×7.",
+    "Visit City Pharmacy at Adarsh Nagar, North West Delhi 110033. Call +91 98710 40480 or send us a message. Open 24×7.",
   );
 
   const submit = async (event: React.FormEvent) => {
