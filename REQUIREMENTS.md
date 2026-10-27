@@ -28,7 +28,7 @@ This file maps the requested scope to what is in the repository and live site.
 - **Phone:** 9871040480 (+91 98710 40480)
 - **WhatsApp:** 919871040480
 - **Email:** care@citypharmacy.in
-- **Address:** Shop No. 12, Main Market, Adarsh Nagar, Near Adarsh Nagar Metro Station Gate No. 2, Delhi 110033
+- **Address:** Adarsh Nagar, Delhi 110033
 - **Hours:** Open 24 × 7
 - **Delivery:** 90-minute express; free above ₹499; ₹49 below
 - **Licence:** DL-PH-2026-011033 (display/demo value; replace with the real licence in Admin → Store settings)
