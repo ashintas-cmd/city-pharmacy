@@ -100,10 +100,10 @@ export function ContactPage() {
                   <MapPin size={15} className="mt-0.5 shrink-0 text-apollo-600" />
                   <span>
                     {settings.addressLine1}
+                    {settings.addressLine2 ? <><br />{settings.addressLine2}</> : null}
                     <br />
-                    {settings.addressLine2}
-                    <br />
-                    {settings.city}, {settings.state} – {settings.pincode}
+                    {settings.city}
+                    {settings.state && settings.state !== settings.city ? `, ${settings.state}` : ""} – {settings.pincode}
                   </span>
                 </p>
                 <a href={`tel:+91${settings.phone}`} className="flex items-center gap-2 text-ink/75 hover:text-apollo-700">

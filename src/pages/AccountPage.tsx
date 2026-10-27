@@ -273,7 +273,7 @@ export function AccountPage() {
                           {address.line2 ? `, ${address.line2}` : ""}
                           {address.landmark ? `, ${address.landmark}` : ""}
                         </p>
-                        <p>{address.city}, {address.state} – {address.pincode}</p>
+                        <p>{address.city}{address.state && address.state !== address.city ? `, ${address.state}` : ""} – {address.pincode}</p>
                         <p className="mt-0.5 flex items-center gap-1"><Phone size={10} /> {address.phone}</p>
                       </div>
                       <div className="flex shrink-0 items-center gap-1">

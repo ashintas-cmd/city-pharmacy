@@ -94,7 +94,8 @@ export function Footer() {
                 <span>
                   {settings.addressLine1}
                   <br />
-                  {settings.addressLine2}, {settings.city} – {settings.pincode}
+                  {settings.addressLine2 ? `${settings.addressLine2}, ` : ""}
+                  {settings.city} – {settings.pincode}
                 </span>
               </p>
               <a href={`tel:+91${settings.phone}`} className="flex items-center gap-2 transition hover:text-white">

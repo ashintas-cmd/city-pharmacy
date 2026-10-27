@@ -263,7 +263,7 @@ export function AdminOrders() {
                     {selected.address.line2 ? `, ${selected.address.line2}` : ""}
                     {selected.address.landmark ? `, ${selected.address.landmark}` : ""}
                     <br />
-                    {selected.address.city}, {selected.address.state} – {selected.address.pincode}
+                    {selected.address.city}{selected.address.state && selected.address.state !== selected.address.city ? `, ${selected.address.state}` : ""} – {selected.address.pincode}
                   </span>
                 </p>
                 <p className="mt-1.5 flex items-center gap-1.5 text-[9px]"><Truck size={11} /> {selected.deliverySlot ?? "Express delivery"}</p>

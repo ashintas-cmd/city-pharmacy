@@ -282,7 +282,7 @@ export function OrderDetailPage() {
                     {order.address.line2 ? `, ${order.address.line2}` : ""}
                     {order.address.landmark ? `, ${order.address.landmark}` : ""}
                   </p>
-                  <p>{order.address.city}, {order.address.state} – {order.address.pincode}</p>
+                  <p>{order.address.city}{order.address.state && order.address.state !== order.address.city ? `, ${order.address.state}` : ""} – {order.address.pincode}</p>
                   <p className="mt-1.5 flex items-center gap-1"><Phone size={11} /> {order.address.phone}</p>
                   {order.customer.email ? <p className="mt-0.5 flex items-center gap-1"><Mail size={11} /> {order.customer.email}</p> : null}
                 </div>

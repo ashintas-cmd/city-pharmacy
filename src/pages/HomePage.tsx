@@ -627,7 +627,8 @@ function StoreSection() {
               <p className="flex items-start gap-2 text-ink/75">
                 <MapPin size={14} className="mt-0.5 shrink-0 text-apollo-600" />
                 <span>
-                  {settings.addressLine1}, {settings.addressLine2}, {settings.city} – {settings.pincode}
+                  {settings.addressLine1}
+                  {settings.addressLine2 ? `, ${settings.addressLine2}` : ""}, {settings.city} – {settings.pincode}
                 </span>
               </p>
               <p className="flex items-center gap-2 text-ink/75">
