@@ -40,10 +40,26 @@ function FloatingHelp() {
   );
 }
 
+function Watermark() {
+  const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'><g fill='none' stroke='%23156F6C' stroke-width='1' opacity='0.06'><rect x='40' y='40' width='60' height='60' rx='14'/><path d='M62 54h16v8h8v16h-8v8H62v-8h-8V62h8z' fill='%23156F6C' opacity='0.08' stroke='none'/></g><text x='70' y='125' text-anchor='middle' font-family='Inter, sans-serif' font-size='9' font-weight='700' fill='%23156F6C' opacity='0.05' letter-spacing='2'>CITY PHARMACY</text></svg>`;
+  return (
+    <div
+      aria-hidden="true"
+      className="pointer-events-none fixed inset-0 z-0 opacity-60"
+      style={{
+        backgroundImage: `url("data:image/svg+xml,${svg}")`,
+        backgroundRepeat: "repeat",
+        backgroundSize: "140px 140px",
+        backgroundPosition: "center",
+      }}
+    />
+  );
+}
 export function Layout() {
   return (
     <div className="flex min-h-screen flex-col">
       <ScrollToTop />
+      <Watermark />
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-apollo-700 focus:px-4 focus:py-2 focus:text-sm focus:text-white"
@@ -51,7 +67,7 @@ export function Layout() {
         Skip to content
       </a>
       <Header />
-      <main id="main-content" className="flex-1 pb-16 lg:pb-0">
+      <main id="main-content" className="relative z-10 flex-1 pb-16 lg:pb-0">
         <Outlet />
       </main>
       <Footer />

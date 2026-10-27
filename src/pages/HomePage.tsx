@@ -37,6 +37,8 @@ import { usePageMeta } from "@/hooks/usePageMeta";
 import { cn, inr } from "@/lib/utils";
 import { StoreMap } from "@/components/StoreMap";
 import { OwnerSlideshow } from "@/components/OwnerSlideshow";
+import { PatientSlideshow } from "@/components/PatientSlideshow";
+import { Hero3DPoster } from "@/components/Hero3DPoster";
 import type { Product } from "@/types";
 
 function DiyaArt({ className }: { className?: string }) {
@@ -759,11 +761,17 @@ export function HomePage() {
   return (
     <div className="pb-10">
       <Hero />
+      <div className="shell mt-6">
+        <Hero3DPoster />
+      </div>
       <CategoryCircles />
       <DiwaliSection />
       <Bestsellers />
       <Concerns />
       <PromoStrip />
+      <div className="shell mt-10">
+        <PatientSlideshow />
+      </div>
       <StatsBand />
       <StoreSection />
       <FaqSection />

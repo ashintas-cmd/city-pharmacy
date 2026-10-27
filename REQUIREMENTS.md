@@ -31,7 +31,7 @@ This file maps the requested scope to what is in the repository and live site.
 - **Address:** Adarsh Nagar, North West Delhi, Delhi 110033
 - **Hours:** Open 24 × 7
 - **Delivery:** 90-minute express; free above ₹499; ₹49 below
-- **Licence:** DL-PH-2026-011033 (display/demo value; replace with the real licence in Admin → Store settings)
+- **Licence:** xxxxxxxxx (replace with the real licence in Admin → Store settings)
 
 ## Deliberate scope choices
 
